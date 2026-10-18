@@ -15,3 +15,5 @@ Fork of https://github.com/TheMegax/HitboxMod
 ---
 
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
+
+This is a fork maintained for current versions of a mod by ixenderous: https://github.com/ixenderous
