@@ -33,6 +33,10 @@ namespace VisibleHitboxes.HitboxManagers
             circle = bundle.LoadAssetAsync("circle").GetResult().Cast<GameObject>();
             square = bundle.LoadAssetAsync("square").GetResult().Cast<GameObject>();
             material = bundle.LoadAssetAsync("ShaderTransparent").GetResult().Cast<Material>();
+
+            circle.hideFlags |= HideFlags.DontUnloadUnusedAsset;
+            square.hideFlags |= HideFlags.DontUnloadUnusedAsset;
+            material.hideFlags |= HideFlags.DontUnloadUnusedAsset;
         }
 
         public virtual void OnMatchStart()
